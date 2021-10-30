@@ -35,7 +35,7 @@ import groovy.transform.Field
 
 definition(
     name: "Hunter Douglas PowerView",
-    namespace: "hdpowerview",
+    namespace: "zscholz",
     author: "Chris Lang",
     description: "Provides control of Hunter Douglas shades, scenes and repeaters via the PowerView hub.",
     category: "Convenience",
