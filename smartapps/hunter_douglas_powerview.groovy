@@ -4,6 +4,7 @@
  *  Copyright 2017 Chris Lang
  *
  *  Ported to Hubitat by Brian Ujvary
+ *  Ported back to Smartthings by Zach Scholz
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
  *  in compliance with the License. You may obtain a copy of the License at:
@@ -33,8 +34,8 @@ import groovy.transform.Field
 @Field static String htmlTab = "&nbsp;&nbsp;&nbsp;&nbsp;"
 
 definition(
-    name: "My Hunter Douglas PowerView",
-    namespace: "my_hdpowerview",
+    name: "Hunter Douglas PowerView",
+    namespace: "hdpowerview",
     author: "Chris Lang",
     description: "Provides control of Hunter Douglas shades, scenes and repeaters via the PowerView hub.",
     category: "Convenience",
@@ -42,7 +43,7 @@ definition(
     iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience@2x.png",
     iconX3Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience@2x.png",
     singleInstance: true,
-    importUrl: "https://raw.githubusercontent.com/bujvary/hubitat/master/apps/hunter-douglas-powerview.groovy"
+    importUrl: "https://https://github.com/zscholz/powerview/edit/main/smartapps/hunter_douglas_powerview.groovy"
 )
 
 
